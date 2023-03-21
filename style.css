@@ -39,7 +39,7 @@
 }
 
 .hero {
-    background-image: url('girls.jpg');
+    background-image: url('girls');
     height: 500px;
     background-size: contain;
     background-repeat:  no-repeat;
