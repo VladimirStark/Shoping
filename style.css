@@ -3,7 +3,7 @@
 }
 .conteiner {
     display: flex;
-    max-width: 1200px;
+    max-width: 1140px;
     margin: 0 auto;
     /* margin-left: auto;
     margin-right: auto;
@@ -122,11 +122,33 @@
     flex-direction: column;
     text-align: center;
     color: white;
-    margin-top: 120px;  
+    margin-top: 120px;
+   
 }
 
 h4 {
     color: rgb(219, 45, 22);
+    margin: 170px auto auto auto;
+    font-size: 20px;
+}
+h1 {
+    font-size: 50px;
+}
+
+h5 {
+    font-size: 15px;
+    margin: -45px auto 50px;
+}
+
+.btn-hero {
+    border: none;
+    border-radius: 4px;
+    background-color: red;
+    color: white;
+    height: 50px;
+    width: 150px;
+    margin: 0 auto;
+    display: block;
 }
 
 .mask {
@@ -134,4 +156,34 @@ h4 {
     height: 100%;
     background-color: #0a0a0a42;
     /* display: flex; */
+}
+.shipping-info {
+    background: hsl(330deg 11.11% 96.47%);
+    height: 50px;
+    
+}
+
+.product-groups {
+    display: flex; 
+    height: 300px;
+    max-width: 1140px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.product-grops_sandls {
+    width: 40%;
+    background-image: url('Sandals.jpg');
+    background-size: cover;
+    background-repeat:  no-repeat;
+    margin: 15px auto;
+    
+}
+
+.product-grops_bag {
+    width: 40%;
+    background-image: url('handbags-shop.jpg');
+    background-size: cover;
+    background-repeat:  no-repeat;
+    margin: 15px auto;
 }
