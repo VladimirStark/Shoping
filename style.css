@@ -128,11 +128,14 @@
 
 h4 {
     color: rgb(219, 45, 22);
-    margin: 170px auto auto auto;
+    margin: 150px auto auto auto;
     font-size: 20px;
+    text-align: center;
 }
+
 h1 {
     font-size: 50px;
+    margin-top: 0;
 }
 
 h5 {
@@ -158,26 +161,35 @@ h5 {
     /* display: flex; */
 }
 .shipping-info {
-    background: hsl(330deg 11.11% 96.47%);
+    background-color: #f7f5f6;
     height: 50px;
-    
+    margin: 0%;  
 }
 
 .product-groups {
     display: flex; 
-    height: 300px;
-    max-width: 1140px;
-    padding-left: 16px;
-    padding-right: 16px;
+    /* flex-direction: row; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    flex-wrap: wrap;
+    /* margin: 0 50px;
+    padding: 30px; */
+    /* /* height: 300px; */
+    /* max-width: 1140px; */
+    /* padding-left: 16px;
+    padding-right: 16px; */  */
+    
 }
 
+ 
 .product-grops_sandls {
-    width: 40%;
+    max-width: 40%;
     background-image: url('Sandals.jpg');
     background-size: cover;
     background-repeat:  no-repeat;
-    margin: 15px auto;
-    
+    padding: 0 10px;
+    height: 240px;
+    justify-content: flex-start;
 }
 
 .product-grops_bag {
@@ -186,4 +198,6 @@ h5 {
     background-size: cover;
     background-repeat:  no-repeat;
     margin: 15px auto;
+    width: 100%;
+    height: 100%;
 }
