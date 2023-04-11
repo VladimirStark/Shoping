@@ -122,16 +122,10 @@
     flex-direction: column;
     text-align: center;
     color: white;
-    margin-top: 120px;
+    
    
 }
 
-h4 {
-    color: rgb(219, 45, 22);
-    margin: 150px auto auto auto;
-    font-size: 20px;
-    text-align: center;
-}
 
 h1 {
     font-size: 50px;
@@ -158,46 +152,54 @@ h5 {
     width: 100%;
     height: 100%;
     background-color: #0a0a0a42;
-    /* display: flex; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .shipping-info {
+    display: flex;
     background-color: #f7f5f6;
     height: 50px;
-    margin: 0%;  
+    align-items: center;
+    justify-content: center;
 }
 
-.product-groups {
-    display: flex; 
-    /* flex-direction: row; */
-    /* justify-content: space-between; */
-    /* align-items: center; */
-    flex-wrap: wrap;
-    /* margin: 0 50px;
-    padding: 30px; */
-    /* /* height: 300px; */
-    /* max-width: 1140px; */
-    /* padding-left: 16px;
-    padding-right: 16px; */  */
+h4 {
+    color: rgb(219, 45, 22);
+    font-size: 20px;
     
 }
+.product-groups {
+   margin-top: 30px;    
+}
 
- 
-.product-grops_sandls {
-    max-width: 40%;
-    background-image: url('Sandals.jpg');
+.product-groups .conteiner {
+    justify-content: center;
+}
+
+.product-card {
+    width: 300px;
+    height: 170px;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
     background-size: cover;
     background-repeat:  no-repeat;
-    padding: 0 10px;
-    height: 240px;
-    justify-content: flex-start;
+ }
+
+ .product-card h3 {
+    margin-top: 0;
+ }
+.product-grops_sandls {
+    background-image: url('Sandals.jpg');
+    margin-right: 50px;
 }
 
 .product-grops_bag {
-    width: 40%;
+   
     background-image: url('handbags-shop.jpg');
-    background-size: cover;
-    background-repeat:  no-repeat;
-    margin: 15px auto;
-    width: 100%;
-    height: 100%;
+   
+   
 }
